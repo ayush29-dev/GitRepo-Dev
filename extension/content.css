@@ -1,0 +1,9 @@
+/* Smooth transition when sidebar pushes GitHub content left */
+body {
+  transition: margin-right 0.25s ease !important;
+}
+
+/* Ensure our sidebar sits above GitHub's sticky header */
+#gitrepo-dev-sidebar {
+  z-index: 999999 !important;
+}

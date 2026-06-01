@@ -1,0 +1,26 @@
+# Dependencies
+node_modules/
+extension/sidebar/node_modules/
+
+# Build outputs
+dist/
+extension/sidebar/dist/
+
+# Python
+venv/
+__pycache__/
+*.pyc
+*.pyo
+.pytest_cache/
+
+# Env files — NEVER commit secrets
+.env
+backend/.env
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+npm-debug.log*
